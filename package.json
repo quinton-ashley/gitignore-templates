@@ -1,0 +1,30 @@
+{
+	"author": "Quinton Ashley",
+	"contributors": [
+		{
+			"name": "Quinton Ashley",
+			"email": "qashto@gmail.com"
+		}
+	],
+	"dependencies": {},
+	"description": "npm package for gitignore github templates",
+	"keywords": ['gitignore', 'templates'],
+	"maintainers": [
+		{
+			"name": "Quinton Ashley",
+			"email": "qashto@gmail.com"
+		}
+	],
+	"name": "gitignore-templates",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/quinton-ashley/gitignore-templates"
+	},
+	"scripts": {
+		"start": "node app.js",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"version": "git add -A",
+		"postversion": "git push && git push github && npm publish"
+	},
+	"version": "0.0.0"
+}
