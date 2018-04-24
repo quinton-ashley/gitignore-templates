@@ -24,7 +24,7 @@
 		"start": "node app.js",
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"version": "git add -A",
-		"postversion": "git push && git push github && npm publish"
+		"postversion": "git push && npm publish"
 	},
-	"version": "0.0.2"
+	"version": "0.0.3"
 }
