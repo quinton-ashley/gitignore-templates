@@ -1,30 +1,31 @@
 {
-	"author": "Quinton Ashley",
-	"contributors": [
-		{
-			"name": "Quinton Ashley",
-			"email": "qashto@gmail.com"
-		}
-	],
-	"dependencies": {},
-	"description": "npm package for gitignore github templates",
-	"license": "CC0-1.0",
-	"maintainers": [
-		{
-			"name": "Quinton Ashley",
-			"email": "qashto@gmail.com"
-		}
-	],
-	"name": "gitignore-templates",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/quinton-ashley/gitignore-templates.git"
-	},
-	"scripts": {
-		"start": "node app.js",
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"version": "git add -A",
-		"postversion": "git push && npm publish"
-	},
-	"version": "0.0.5"
+  "author": "Quinton Ashley",
+  "contributors": [
+    {
+      "name": "Quinton Ashley",
+      "email": "qashto@gmail.com"
+    }
+  ],
+  "dependencies": {},
+  "description": "npm package for gitignore github templates",
+  "license": "CC0-1.0",
+  "maintainers": [
+    {
+      "name": "Quinton Ashley",
+      "email": "qashto@gmail.com"
+    }
+  ],
+  "name": "gitignore-templates",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quinton-ashley/gitignore-templates.git"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preversion": "git add -A",
+    "version": "git add -A",
+    "postversion": "git push && npm publish"
+  },
+  "version": "0.0.5"
 }
